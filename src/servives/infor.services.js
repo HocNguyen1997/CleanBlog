@@ -1,4 +1,4 @@
-const db = require('../../config/configDB');
+const db = require('../../core/config/configDB');
 
 const getInfor = ()=>{
     return new Promise((resolve, reject)=>{
